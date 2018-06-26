@@ -1,0 +1,24 @@
+
+{% extends "_base.html" %}
+{% block content %}
+<center>
+    {% if col %}
+        <table border="3">
+            {% for i in col %}
+                <tr>
+                    <td> {{i.location}}</td>
+                    <td> <a href="/colleges/{{i.id}}">{{i.name}}</a></td>
+                    <td> {{i.acronym}}</td>
+                    {%if 'onlineapp.change_college' in user_permissions and 'onlineapp.delete_college' in user_permissions%}
+                    <td><a href="{% url 'editcollege' i.id %}">Edit</a> | <a href="{% url "deletecollege" i.id %}">Delete</a></td>
+                    {%endif%}
+                </tr>
+            {% endfor %}
+        </table>
+       {% endif %}
+           {%if 'onlineapp.change_college' in user_permissions and 'onlineapp.delete_college' in user_permissions%}
+    <a href="./createcollege" ><button>Add college</button></a>
+    {%endif%}
+</center>
+
+{% endblock %}

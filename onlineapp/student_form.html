@@ -1,0 +1,10 @@
+
+{% extends "_base.html" %}
+{% block content %}
+<form method="post">
+    {% csrf_token %}
+    {{student.as_p}}
+    {{mock.as_p}}
+    <input type="submit" value="Submit">
+</form>
+{% endblock %}

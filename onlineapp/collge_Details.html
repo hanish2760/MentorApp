@@ -1,0 +1,23 @@
+
+{% extends "_base.html" %}
+{% block content %}
+<center>
+    {% if students %}
+        <table border="3">
+            {% for i in students %}
+                <tr>
+                    <td> {{i.student__name}}</td>
+                    <td> {{i.student__mocktest1__total}}</td>
+                    <td> {{i.acronym}}</td>
+                    {%if 'onlineapp.change_college' in user_permissions and 'onlineapp.delete_college' in user_permissions%}
+                    <td><a href="{% url 'editstudent' i.student__id %}">Edit</a> | <a href="{% url 'deletestudent' i.student__id %}">Delete</a></td>
+                    {% endif %}
+                </tr>
+            {% endfor %}
+        </table>
+          {%if 'onlineapp.change_college' in user_permissions and 'onlineapp.delete_college' in user_permissions%}
+                    <a href="./addstudent"><button> add student </button></a>
+        {%endif%}
+    {% endif %}
+</center>
+{% endblock %}

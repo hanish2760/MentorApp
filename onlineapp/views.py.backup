@@ -1,0 +1,83 @@
+from django.shortcuts import render
+from django.http import HttpResponse
+import os
+import django
+import requests
+import MySQLdb
+from bs4 import BeautifulSoup
+import openpyxl as xl
+import click
+
+os.environ.setdefault("DJANGO_SETTINGS_MODULE", "onlineClass.settings")
+django.setup()
+from django.template import loader
+from onlineapp.models import *
+
+# ffind out bat the contract of the view function...what does i take what does it return
+def first_hello(request):
+    # f=open("hello.html",'r')
+    # s=f.read()
+    # f.close()
+
+    #
+    # #getting from db
+    # s="<table>"
+    # coll=College.objects.all()
+    # for i in coll:
+    #     s=s+"<tr>"
+    #
+    #     s=s+"<td>"+i.name+"</td>"
+    #     s = s + "<td>" + i.location + "</td>"
+    #     s = s + "<td>" + i.acronym + "</td>"
+    #     s = s + "<td>" + i.contact + "</td>"
+    #     s=s+"</tr>"
+    # s=s+"</table>"
+    col = College.objects.all
+    temp=loader.get_template('temp.html')
+    context={
+        'col' : col
+    }
+    return HttpResponse(temp.render(context,request))
+def emailname(request):
+    col=Student.objects.values("name","email","college__acronym")
+    temp=loader.get_template('temp2.html')
+    context={
+        'col':col
+    }
+    return HttpResponse(temp.render(context,request))
+def iddetails(request):
+
+    try:
+        col=Student.objects.values("name","id","college__acronym").get(id=id)
+        temp=loader.get_template('temp3.html')
+        context={
+                'col':col
+
+        }
+    except Exception:
+        return HttpResponse("no bro stud lke that")
+
+    return HttpResponse(temp.render(context,request))
+def CollegeList(request):
+    col = College.objects.values("name", "location", "acronym")
+    temp = loader.get_template('collegeList.html')
+    context = {
+        'col': col
+
+    }
+    return HttpResponse(temp.render(context, request))
+
+def CollegeDetails(request,acr):
+    col = MockTest1.objects.values('total','students__name','students__college__acronym').filter(students__college__acronym=acr).order_by('-total')
+    temp = loader.get_template('collegeDetails.html')
+    context = {
+        'col': col
+
+    }
+    return HttpResponse(temp.render(context, request))
+
+def testview(request):
+    request.session.setdefault("count",0)
+    c=request.session["count"]+1
+    request.session["count"]=c
+    return HttpResponse("hello {0}".format(request.session["count"]))

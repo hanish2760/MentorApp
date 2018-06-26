@@ -1,0 +1,18 @@
+
+{% extends "_base.html" %}
+{% block content %}
+<center>
+    {% if col %}
+        <table border="3">
+            {% for i in col %}
+                <tr>
+                    <td> {{i.students__name}}</td>
+                    <td> {{i.students__college__acronym}}</a></td>
+                    <td>   {{i.total}}</td>
+
+            </tr>
+            {% endfor %}
+        </table>
+       {% endif %}
+</center>
+{% endblock %}

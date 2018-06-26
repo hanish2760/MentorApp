@@ -1,0 +1,14 @@
+<center>
+    {% if col %}
+        <table>
+            {% for i in col %}
+                <tr>
+                    <td> {{i.name}}</td>
+                    <td> {{i.email}}</td>
+                    <td> {{i.college__acronym}}</td>
+                    <td><button type="button"></button></td>
+            </tr>
+            {% endfor %}
+        </table>
+       {% endif %}
+</center>

@@ -1,0 +1,14 @@
+<center>
+    {% if col %}
+        <table>
+            {% for i in col %}
+                <tr>
+                    <td> {{i.name}}</td>
+                    <td> {{i.location}}</td>
+                    <td> {{i.acronym}}</td>
+                    <td><button type="button"></button></td>
+            </tr>
+            {% endfor %}
+        </table>
+       {% endif %}
+</center>
