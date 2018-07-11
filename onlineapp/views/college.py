@@ -412,7 +412,7 @@ def populatedb2():
                           total=str(std[5]), students=stdFolderDict[dbname])
             m.save()
 
-            
+
 @csrf_exempt
 def upload_data():
     populatedb2()
