@@ -3,6 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="0228d370-00f9-4d3d-bd65-d706f64e9fa2" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/manage.py" beforeDir="false" afterPath="$PROJECT_DIR$/manage.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/requirements.txt" beforeDir="false" afterPath="$PROJECT_DIR$/requirements.txt" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -21,15 +22,6 @@
               <folding>
                 <element signature="e#0#32#0" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="urls.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/onlineClass/urls.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="309">
-              <caret line="35" selection-start-line="35" selection-end-line="35" />
             </state>
           </provider>
         </entry>
@@ -64,8 +56,8 @@
       <file leaf-file-name="DbExcelClick.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/DbExcelClick.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="51">
-              <caret line="94" column="14" selection-start-line="94" selection-start-column="4" selection-end-line="94" selection-end-column="14" />
+            <state relative-caret-position="415">
+              <caret line="62" column="15" lean-forward="true" selection-start-line="45" selection-end-line="62" selection-end-column="15" />
               <folding>
                 <element signature="e#0#9#0" expanded="true" />
               </folding>
@@ -98,14 +90,23 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="manage.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="manage.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/manage.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="272">
-              <caret line="17" column="16" lean-forward="true" selection-start-line="17" selection-start-column="16" selection-end-line="17" selection-end-column="16" />
+            <state relative-caret-position="71">
+              <caret line="10" column="11" selection-start-line="10" selection-start-column="11" selection-end-line="10" selection-end-column="11" />
               <folding>
                 <element signature="e#22#31#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="requirements.txt" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/requirements.txt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="850">
+              <caret line="50" lean-forward="true" selection-start-line="50" selection-end-line="50" />
             </state>
           </provider>
         </entry>
@@ -175,7 +176,6 @@
         <option value="$PROJECT_DIR$/onlineapp/SerializerViews/StuudentViews.py" />
         <option value="$PROJECT_DIR$/onlineapp/SerializerViews/StudentRestViews.py" />
         <option value="$PROJECT_DIR$/onlineapp/serializers/serializersfile.py" />
-        <option value="$PROJECT_DIR$/DbExcelClick.py" />
         <option value="$PROJECT_DIR$/onlineapp/Client/__init__.py" />
         <option value="$PROJECT_DIR$/onlineapp/Client/threads.py" />
         <option value="$PROJECT_DIR$/onlineapp/UsingThread/consumerThreads.py" />
@@ -196,6 +196,7 @@
         <option value="$PROJECT_DIR$/requirements.txt" />
         <option value="$PROJECT_DIR$/Procfile" />
         <option value="$PROJECT_DIR$/onlineapp/urls.py" />
+        <option value="$PROJECT_DIR$/DbExcelClick.py" />
         <option value="$PROJECT_DIR$/manage.py" />
       </list>
     </option>
@@ -758,13 +759,6 @@
     <entry file="file://$PROJECT_DIR$/webpack-stats.dev.json">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/requirements.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="417">
-          <caret line="50" column="15" selection-start-line="50" selection-start-column="15" selection-end-line="50" selection-end-column="15" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/onlineapp/SerializerViews/CollegeRestViews.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="309">
@@ -834,8 +828,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/DbExcelClick.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="94" column="14" selection-start-line="94" selection-start-column="4" selection-end-line="94" selection-end-column="14" />
+        <state relative-caret-position="415">
+          <caret line="62" column="15" lean-forward="true" selection-start-line="45" selection-end-line="62" selection-end-column="15" />
           <folding>
             <element signature="e#0#9#0" expanded="true" />
           </folding>
@@ -844,11 +838,18 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/manage.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="17" column="16" lean-forward="true" selection-start-line="17" selection-start-column="16" selection-end-line="17" selection-end-column="16" />
+        <state relative-caret-position="71">
+          <caret line="10" column="11" selection-start-line="10" selection-start-column="11" selection-end-line="10" selection-end-column="11" />
           <folding>
             <element signature="e#22#31#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/requirements.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="850">
+          <caret line="50" lean-forward="true" selection-start-line="50" selection-end-line="50" />
         </state>
       </provider>
     </entry>
