@@ -48,7 +48,14 @@
   "scripts": {
     "start": "node scripts/start.js",
     "build": "node scripts/build.js",
-    "test": "node scripts/test.js --env=jsdom"
+    "test": "node scripts/test.js --env=jsdom",
+    
+    "postinstall": "npm run build"
+
+  },
+  "engines": {
+    "node":"8.9.4",
+    "npm":"5.5.1"
   },
   "jest": {
     "collectCoverageFrom": [

@@ -38,6 +38,7 @@ def CollegeListRestView(request):
 
     elif request.method == 'POST':
         serializer = CollegeSerializer(data=request.POST)
+
         #CollegeSerializer.create(serializer)
         if (serializer.is_valid()):
             serializer.save()
@@ -79,5 +80,5 @@ def CollegeDetailsRestView(request,*args,**kwargs):
 def test(request,*args,**kwargs):
     if request.method == "POST":
         print("hello there")
-        return HttpResponse({"ok": "dengei"}, status=status.HTTP_201_CREATED)
+        return HttpResponse({"ok": "Bye"}, status=status.HTTP_201_CREATED)
 

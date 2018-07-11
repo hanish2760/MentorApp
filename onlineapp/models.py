@@ -10,6 +10,7 @@ class College(models.Model):
     def __str__(self):
         return self.acronym
 
+
 class Student(models.Model):
     name = models.CharField(max_length=128)#student name
     dob = models.DateField(null=True,blank = True)

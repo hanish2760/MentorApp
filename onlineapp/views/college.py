@@ -272,7 +272,7 @@ class DeleteStudentView(django.contrib.auth.mixins.LoginRequiredMixin, DeleteVie
 
 
 """"
-chdck it out 
+check it out 
 redirect
 receiver something  
 
@@ -320,6 +320,9 @@ class  singnUpView(View):
 class LoginView(View):
     def get(self,request):
         loginform=loginForm()
+        # import ipdb
+        # ipdb.set_trace()
+
         return render(
             request,
             template_name="login.html",

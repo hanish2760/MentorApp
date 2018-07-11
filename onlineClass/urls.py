@@ -21,8 +21,15 @@ from django.views.generic import TemplateView
 urlpatterns = [
 path('admin/', admin.site.urls),
 url(r'',include('onlineapp.urls')),
-url(r'^',TemplateView.as_view(template_name="index.html")),
+url(r'react/',TemplateView.as_view(template_name="index.html")),
 ]
+
+"""
+admin:
+hanish2760
+lostlost
+
+"""
 
 from django.conf import settings
 from django.conf.urls import include, url

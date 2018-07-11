@@ -54,7 +54,10 @@ module.exports = {
     // We include the app code last so that if there is a runtime error during
     // initialization, it doesn't blow up the WebpackDevServer client, and
     // changing JS code would still trigger a refresh.
+   //i hav ecommented it https://github.com/webpack-contrib/webpack-hot-middleware/issues/170
     require.resolve('webpack-dev-server/client') + '?http://localhost:3000',
+    // require.resolve('webpack-hot-middleware/client') + '?http://localhost:3000',
+   
     require.resolve('webpack/hot/dev-server'),
 
   ],

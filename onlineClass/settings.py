@@ -23,9 +23,14 @@ BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 SECRET_KEY = '%mk58%a12s$^4g%o5v6e0d7hs$%v9_*b9x1uoifjwqdqplq_rz'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
+DEBUG = False
 
-ALLOWED_HOSTS = []
+# ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['mentor-app-mrnd.herokuapp.com', '127.0.0.1:8000']
+# // added this as part of deployemnet
+BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+STATIC_ROOT = os.path.join(BASE_DIR, 'staticfiles')
+STATICFILES_STORAGE = 'whitenoise.django.GzipManifestStaticFilesStorage'
 
 
 # Application definition
@@ -41,8 +46,11 @@ INSTALLED_APPS = [
     'debug_toolbar',
     'rest_framework',
     'webpack_loader',
+    'corsheaders',
 
 ]
+CORS_ORIGIN_ALLOW_ALL = True
+# ALLOWED_HOSTS = ['*']
 REST_FRAMEWORK = {
      # 'DEFAULT_PERMISSION_CLASSES': (
      #     'rest_framework.permissions.IsAuthenticated',
@@ -52,6 +60,7 @@ REST_FRAMEWORK = {
      #     'rest_framework.authentication.SessionAuthentication',
      #     'rest_framework.authentication.BasicAuthentication',
      # ),
+
 
 
 
@@ -77,10 +86,12 @@ MIDDLEWARE = [
     'django.contrib.sessions.middleware.SessionMiddleware',
     'django.middleware.common.CommonMiddleware',
     'django.middleware.csrf.CsrfViewMiddleware',
+    'django.middleware.common.CommonMiddleware',
     'django.contrib.auth.middleware.AuthenticationMiddleware',
     'django.contrib.messages.middleware.MessageMiddleware',
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
     'debug_toolbar.middleware.DebugToolbarMiddleware',
+     'corsheaders.middleware.CorsMiddleware',
 
 ]
 
@@ -91,8 +102,10 @@ TEMPLATES = [
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
         'DIRS': [
             './onlineapp/',
-            os.path.join(BASE_DIR, "templates"),
+        os.path.join(BASE_DIR, "templates"),
         ],
+
+
         'APP_DIRS': True,
         'OPTIONS': {
             'context_processors': [

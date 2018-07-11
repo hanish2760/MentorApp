@@ -17,16 +17,17 @@ class CollegesList extends Component {
     }
 
     componentDidMount() {
+  // , {
+        //     headers: {
+        //         Authorization: `JWT ${this.getCook('jwt')}`
 
-        fetch('https://127.0.0.1:8000/api/colleges/', {
-            headers: {
-                Authorization: `JWT ${this.getCook('jwt')}`
-
-            }
+        //     }}
+        fetch('http://127.0.0.1:8000/api/colleges/',{
+            method: 'get'
         })
             .then(response => response.json())
             .then(collegelist => {
-                console.log(collegelist);
+                console.log('list'+collegelist);
                 this.setState({
                     colleges: collegelist,
 
@@ -39,12 +40,13 @@ class CollegesList extends Component {
 
 
     render() {
+        let i=0;
         console.log('Render');
         console.log(this.state.colleges);
         return (
             <div>
                       
-                                <table class="table table-dark">
+                                <table className="table table-dark">
                                     {/* p key={curr.id}>{curr.name}</p> */}
                                     <thead>
                                         <tr>
@@ -58,10 +60,11 @@ class CollegesList extends Component {
 
                 {
 
-                    this.state.colleges && this.state.colleges.map((curr) => {
+                   this.state.colleges && this.state.colleges.map((curr) => {
+                        i=i+1;
                         return (
-                      
-                                        <tr>
+                         
+                                        <tr key={i}>
                                             <td>{curr.name}</td>
                                             <td>{curr.location}</td>
                                             <td>{curr.acronym}</td>
