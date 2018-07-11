@@ -2,13 +2,15 @@
 import os
 import sys
 
-from Tools.scripts.mailerdaemon import xl
+# from Tools.scripts.mailerdaemon import xl
+import openpyxl
+from openpyxl import load_workbook
 
 from onlineapp.models import MockTest1, Student, College
 
 def read_from_xl2(workbookName, sheetName):
     '''this function reads data from a specified sheet and returns a 2d list of data'''
-    wb = xl.load_workbook(workbookName)
+    wb =  load_workbook(workbookName)
     sheetsrc = wb[sheetName]
 
     rows = sheetsrc.max_row
