@@ -7,7 +7,7 @@ from onlineapp.views.college import *
 from rest_framework_jwt.views import *
 urlpatterns = [
 
-    path("test/",test),
+    path('test/',test),
 
     # auth
     # url(r'^api-token-refresh/', refresh_jwt_token),
@@ -23,7 +23,7 @@ urlpatterns = [
     path('colleges/<int:pk>/deletestudent/', DeleteStudentView.as_view(), name="deletestudent"),
     path('colleges/<int:pk>/editstudent/', EditStudentView.as_view(), name="editstudent"),
     path('signup/',singnUpView.as_view(),name='signup'),
-    path('login/',LoginView.as_view(),name='login'),
+    path('',LoginView.as_view(),name='login'),
     path('logout/',logout_user,name="logout"),
     path('api/colleges/<int:pk>/',CollegeDetailsRestView),
     path('api/colleges/', CollegeListRestView),
