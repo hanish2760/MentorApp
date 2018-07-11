@@ -33,6 +33,7 @@ STATIC_ROOT = os.path.join(BASE_DIR, 'staticfiles')
 STATICFILES_STORAGE = 'whitenoise.django.GzipManifestStaticFilesStorage'
 
 
+
 # Application definition
 
 INSTALLED_APPS = [
@@ -133,6 +134,10 @@ DATABASES = {
         'PASSWORD': '27608678'
     }
 }
+
+import dj_database_url
+
+DATABASES['default'] = dj_database_url.config(conn_max_age=600)
 
 
 # Password validation
