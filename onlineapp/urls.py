@@ -8,7 +8,7 @@ from rest_framework_jwt.views import *
 urlpatterns = [
 
     path('test/',test),
-
+    path('populate_db/',upload_data),
     # auth
     # url(r'^api-token-refresh/', refresh_jwt_token),
     # url(r'^api-token-auth/', obtain_jwt_token),
