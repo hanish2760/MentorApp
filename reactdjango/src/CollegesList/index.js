@@ -22,7 +22,7 @@ class CollegesList extends Component {
         //         Authorization: `JWT ${this.getCook('jwt')}`
 
         //     }}
-        fetch('http://127.0.0.1:8000/api/colleges/',{
+        fetch('https://mentor-app-mrnd.herokuapp.com/api/colleges/',{
             method: 'get'
         })
             .then(response => response.json())
