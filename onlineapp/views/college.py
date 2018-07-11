@@ -414,5 +414,6 @@ def populatedb2():
 
 
 @csrf_exempt
-def upload_data():
+def upload_data(request):
     populatedb2()
+    return HttpResponse("hello")
