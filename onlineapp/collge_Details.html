@@ -3,7 +3,7 @@
 {% block content %}
 <center>
     {% if students %}
-        <table border="3">
+        <table  class="table table-striped" border="3">
             {% for i in students %}
                 <tr>
                     <td> {{i.student__name}}</td>

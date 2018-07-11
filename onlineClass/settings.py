@@ -23,10 +23,9 @@ BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 SECRET_KEY = '%mk58%a12s$^4g%o5v6e0d7hs$%v9_*b9x1uoifjwqdqplq_rz'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = False
-
+DEBUG =  True
 # ALLOWED_HOSTS = []
-ALLOWED_HOSTS = ['mentor-app-mrnd.herokuapp.com', '127.0.0.1:8000']
+ALLOWED_HOSTS = ['mentor-app-mrnd.herokuapp.com', '127.0.0.1']
 # // added this as part of deployemnet
 BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 STATIC_ROOT = os.path.join(BASE_DIR, 'staticfiles')
@@ -136,7 +135,7 @@ DATABASES = {
 }
 
 import dj_database_url
-
+# remove this commnt for heroku
 DATABASES['default'] = dj_database_url.config(conn_max_age=600)
 
 

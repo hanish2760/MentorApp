@@ -2,7 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0228d370-00f9-4d3d-bd65-d706f64e9fa2" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/onlineapp/views/college.py" beforeDir="false" afterPath="$PROJECT_DIR$/onlineapp/views/college.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/onlineClass/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/onlineClass/settings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/onlineapp/collegeDetails.html" beforeDir="false" afterPath="$PROJECT_DIR$/onlineapp/collegeDetails.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/onlineapp/collegeList.html" beforeDir="false" afterPath="$PROJECT_DIR$/onlineapp/collegeList.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/onlineapp/collge_Details.html" beforeDir="false" afterPath="$PROJECT_DIR$/onlineapp/collge_Details.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/onlineapp/temp.html" beforeDir="false" afterPath="$PROJECT_DIR$/onlineapp/temp.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/onlineapp/temp2.html" beforeDir="false" afterPath="$PROJECT_DIR$/onlineapp/temp2.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/onlineapp/temp3.html" beforeDir="false" afterPath="$PROJECT_DIR$/onlineapp/temp3.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/onlineapp/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/onlineapp/urls.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -13,11 +21,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="urls.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="urls.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/onlineapp/urls.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="170">
-              <caret line="10" column="24" selection-start-line="10" selection-start-column="24" selection-end-line="10" selection-end-column="24" />
+            <state relative-caret-position="884">
+              <caret line="52" selection-start-line="52" selection-end-line="53" />
               <folding>
                 <element signature="e#0#32#0" expanded="true" />
               </folding>
@@ -25,62 +33,74 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="StudentRestViews.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/onlineapp/SerializerViews/StudentRestViews.py">
+      <file leaf-file-name="settings.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/onlineClass/settings.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="68">
-              <caret line="13" column="6" selection-start-line="13" selection-start-column="6" selection-end-line="13" selection-end-column="6" />
+            <state relative-caret-position="343">
+              <caret line="139" lean-forward="true" selection-start-line="139" selection-end-line="139" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="package-lock.json" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/package-lock.json">
+      <file leaf-file-name="_base.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/onlineapp/_base.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-1717">
-              <caret line="13" column="6" selection-start-line="13" selection-start-column="6" selection-end-line="13" selection-end-column="6" />
+            <state relative-caret-position="119">
+              <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="DbExcelClick.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/DbExcelClick.py">
+      <file leaf-file-name="collegeDetails.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/onlineapp/collegeDetails.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-3356">
-              <caret line="42" selection-start-line="42" selection-end-line="42" />
-              <folding>
-                <element signature="e#0#9#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="85">
+              <caret line="5" column="44" selection-start-line="5" selection-start-column="44" selection-end-line="5" selection-end-column="44" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="runtime.txt" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/runtime.txt">
+      <file leaf-file-name="collegeList.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/onlineapp/collegeList.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="12" selection-start-column="12" selection-end-column="12" />
+            <state relative-caret-position="85">
+              <caret line="5" column="44" selection-start-line="5" selection-start-column="44" selection-end-line="5" selection-end-column="44" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="manage.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/manage.py">
+      <file leaf-file-name="collge_Details.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/onlineapp/collge_Details.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="68">
-              <caret line="5" selection-start-line="5" selection-end-line="5" />
+            <state relative-caret-position="85">
+              <caret line="5" column="44" selection-start-line="5" selection-start-column="44" selection-end-line="5" selection-end-column="44" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="CollegeRestViews.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/onlineapp/SerializerViews/CollegeRestViews.py">
+      <file leaf-file-name="temp.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/onlineapp/temp.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="391">
-              <caret line="23" column="33" lean-forward="true" selection-start-line="23" selection-start-column="33" selection-end-line="23" selection-end-column="33" />
-              <folding>
-                <element signature="e#346#396#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="85">
+              <caret line="5" column="43" selection-start-line="5" selection-start-column="43" selection-end-line="5" selection-end-column="43" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="temp2.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/onlineapp/temp2.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="34">
+              <caret line="2" column="43" selection-start-line="2" selection-start-column="43" selection-end-line="2" selection-end-column="43" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="temp3.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/onlineapp/temp3.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="34">
+              <caret line="2" column="43" selection-start-line="2" selection-start-column="43" selection-end-line="2" selection-end-column="43" />
             </state>
           </provider>
         </entry>
@@ -88,29 +108,11 @@
       <file leaf-file-name="college.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/onlineapp/views/college.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="411">
-              <caret line="416" column="23" lean-forward="true" selection-start-line="416" selection-start-column="23" selection-end-line="416" selection-end-column="23" />
+            <state relative-caret-position="6800">
+              <caret line="416" column="23" selection-start-line="416" selection-start-column="23" selection-end-line="416" selection-end-column="23" />
               <folding>
                 <element signature="e#0#44#0" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="views.py.backup" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/onlineapp/views.py.backup">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="485">
-              <caret line="82" column="69" lean-forward="true" selection-start-line="82" selection-start-column="4" selection-end-line="82" selection-end-column="69" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="requirements.txt" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/requirements.txt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="163">
-              <caret line="35" column="8" selection-start-line="35" selection-end-line="35" selection-end-column="8" />
             </state>
           </provider>
         </entry>
@@ -152,25 +154,19 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/onlineapp/blocktemplate.html" />
         <option value="$PROJECT_DIR$/onlineapp/views/student.py.ipynb" />
         <option value="$PROJECT_DIR$/onlineapp/views/student.py" />
         <option value="$PROJECT_DIR$/onlineapp/views/auth.py" />
-        <option value="$PROJECT_DIR$/onlineapp/temp3.html" />
         <option value="$PROJECT_DIR$/onlineapp/views/collge_Details.html" />
         <option value="$PROJECT_DIR$/onlineapp/forms/Signup.py" />
         <option value="$PROJECT_DIR$/onlineapp/views/AuthView.py" />
         <option value="$PROJECT_DIR$/onlineapp/forms/Auth.py" />
         <option value="$PROJECT_DIR$/onlineapp/college_confirm_delete.html" />
-        <option value="$PROJECT_DIR$/onlineapp/collegeDetails.html" />
         <option value="$PROJECT_DIR$/onlineapp/hello.html" />
         <option value="$PROJECT_DIR$/onlineapp/signup_form.html" />
-        <option value="$PROJECT_DIR$/onlineapp/temp.html" />
         <option value="$PROJECT_DIR$/onlineapp/_base.html" />
         <option value="$PROJECT_DIR$/onlineapp/login.html" />
-        <option value="$PROJECT_DIR$/onlineapp/collge_Details.html" />
         <option value="$PROJECT_DIR$/onlineapp/student_form.html" />
-        <option value="$PROJECT_DIR$/onlineapp/collegeList.html" />
         <option value="$PROJECT_DIR$/onlineapp/forms/__init__.py" />
         <option value="C:/Program Files (x86)/Python36-32/Lib/site-packages/openpyxl/workbook/defined_name.py" />
         <option value="$PROJECT_DIR$/onlineapp/views/__init__.py" />
@@ -195,14 +191,20 @@
         <option value="$PROJECT_DIR$/onlineapp/SerializerViews/CollegeRestViews.py" />
         <option value="$PROJECT_DIR$/runtime.txt" />
         <option value="$PROJECT_DIR$/onlineClass/wsgi.py" />
-        <option value="$PROJECT_DIR$/onlineClass/settings.py" />
         <option value="$PROJECT_DIR$/requirements.txt" />
         <option value="$PROJECT_DIR$/Procfile" />
         <option value="$PROJECT_DIR$/DbExcelClick.py" />
         <option value="$PROJECT_DIR$/manage.py" />
         <option value="$PROJECT_DIR$/onlineapp/SerializerViews/StudentRestViews.py" />
         <option value="$PROJECT_DIR$/onlineapp/views/college.py" />
+        <option value="$PROJECT_DIR$/onlineapp/collegeDetails.html" />
+        <option value="$PROJECT_DIR$/onlineapp/collegeList.html" />
+        <option value="$PROJECT_DIR$/onlineapp/collge_Details.html" />
+        <option value="$PROJECT_DIR$/onlineapp/temp.html" />
+        <option value="$PROJECT_DIR$/onlineapp/temp2.html" />
+        <option value="$PROJECT_DIR$/onlineapp/temp3.html" />
         <option value="$PROJECT_DIR$/onlineapp/urls.py" />
+        <option value="$PROJECT_DIR$/onlineClass/settings.py" />
       </list>
     </option>
   </component>
@@ -217,6 +219,22 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope">
+        <subPane subId="Project Files">
+          <expand>
+            <path>
+              <item name="Root" type="cbb8eebc:String" user="Root" />
+              <item name="onlineClass" type="cbb8eebc:String" user="onlineClass" />
+            </path>
+            <path>
+              <item name="Root" type="cbb8eebc:String" user="Root" />
+              <item name="onlineClass" type="cbb8eebc:String" user="onlineClass" />
+              <item name="onlineClass" type="cbb8eebc:String" user="onlineClass" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -251,22 +269,6 @@
               <item name="onlineClass" type="b2602c69:ProjectViewProjectNode" />
               <item name="Scratches and Consoles" type="1a2a3e82:ScratchProjectViewPane$MyProjectNode" />
               <item name="Scratches" type="d62648e6:ScratchProjectViewPane$MyRootNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
-      <pane id="Scope">
-        <subPane subId="Project Files">
-          <expand>
-            <path>
-              <item name="Root" type="cbb8eebc:String" user="Root" />
-              <item name="onlineClass" type="cbb8eebc:String" user="onlineClass" />
-            </path>
-            <path>
-              <item name="Root" type="cbb8eebc:String" user="Root" />
-              <item name="onlineClass" type="cbb8eebc:String" user="onlineClass" />
-              <item name="onlineClass" type="cbb8eebc:String" user="onlineClass" />
             </path>
           </expand>
           <select />
@@ -444,14 +446,14 @@
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.18836749" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.18836749" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.329927" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.32554746" />
       <window_info anchor="bottom" id="Version Control" order="9" weight="0.329927" />
       <window_info anchor="bottom" id="Python Console" order="7" weight="0.3240876" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Terminal" order="8" visible="true" weight="0.20145985" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="8" visible="true" weight="0.20145985" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.48759124" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -573,49 +575,10 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://C:/Program Files (x86)/Python36-32/Lib/json/__init__.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="142">
-          <caret line="353" selection-start-line="353" selection-end-line="353" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://C:/Program Files (x86)/Python36-32/Lib/json/decoder.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="329" column="18" selection-start-line="329" selection-start-column="18" selection-end-line="330" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/onlineapp/requirements.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="400">
-          <caret line="39" column="48" selection-start-line="39" selection-start-column="48" selection-end-line="39" selection-end-column="48" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/onlineapp/UsingThread/producerThread.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="561">
-          <caret line="35" column="14" selection-start-line="35" selection-start-column="14" selection-end-line="35" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/onlineapp/UsingThread/consumerThreads.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/onlineapp/forms/templates/hk.html" />
     <entry file="file://$PROJECT_DIR$/onlineapp/forms/templates/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="221">
           <caret line="13" column="7" selection-start-line="13" selection-start-column="7" selection-end-line="13" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/onlineapp/collegeList.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="20" column="4" selection-end-line="24" />
         </state>
       </provider>
     </entry>
@@ -757,13 +720,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/onlineClass/settings.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="130" selection-start-line="130" selection-end-line="130" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Procfile">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="17">
@@ -799,14 +755,14 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/requirements.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="163">
+        <state relative-caret-position="595">
           <caret line="35" column="8" selection-start-line="35" selection-end-line="35" selection-end-column="8" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/DbExcelClick.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-3356">
+        <state relative-caret-position="612">
           <caret line="42" selection-start-line="42" selection-end-line="42" />
           <folding>
             <element signature="e#0#9#0" expanded="true" />
@@ -823,8 +779,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/onlineapp/SerializerViews/CollegeRestViews.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="391">
-          <caret line="23" column="33" lean-forward="true" selection-start-line="23" selection-start-column="33" selection-end-line="23" selection-end-column="33" />
+        <state relative-caret-position="238">
+          <caret line="23" column="33" selection-start-line="23" selection-start-column="33" selection-end-line="23" selection-end-column="33" />
           <folding>
             <element signature="e#346#396#0" expanded="true" />
           </folding>
@@ -833,28 +789,84 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/onlineapp/views.py.backup">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="485">
-          <caret line="82" column="69" lean-forward="true" selection-start-line="82" selection-start-column="4" selection-end-line="82" selection-end-column="69" />
+        <state relative-caret-position="1394">
+          <caret line="82" column="69" selection-start-line="82" selection-start-column="4" selection-end-line="82" selection-end-column="69" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/onlineapp/views/college.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="411">
-          <caret line="416" column="23" lean-forward="true" selection-start-line="416" selection-start-column="23" selection-end-line="416" selection-end-column="23" />
+        <state relative-caret-position="6800">
+          <caret line="416" column="23" selection-start-line="416" selection-start-column="23" selection-end-line="416" selection-end-column="23" />
           <folding>
             <element signature="e#0#44#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/onlineapp/_base.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/onlineapp/collegeList.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="44" selection-start-line="5" selection-start-column="44" selection-end-line="5" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/onlineapp/collegeDetails.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="44" selection-start-line="5" selection-start-column="44" selection-end-line="5" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/onlineapp/collge_Details.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="44" selection-start-line="5" selection-start-column="44" selection-end-line="5" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/onlineapp/temp.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="43" selection-start-line="5" selection-start-column="43" selection-end-line="5" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/onlineapp/temp2.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="43" selection-start-line="2" selection-start-column="43" selection-end-line="2" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/onlineapp/temp3.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="43" selection-start-line="2" selection-start-column="43" selection-end-line="2" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/onlineapp/urls.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" column="24" selection-start-line="10" selection-start-column="24" selection-end-line="10" selection-end-column="24" />
+        <state relative-caret-position="884">
+          <caret line="52" selection-start-line="52" selection-end-line="53" />
           <folding>
             <element signature="e#0#32#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/onlineClass/settings.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="343">
+          <caret line="139" lean-forward="true" selection-start-line="139" selection-end-line="139" />
         </state>
       </provider>
     </entry>
