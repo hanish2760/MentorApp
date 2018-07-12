@@ -7,25 +7,31 @@
             <tr>
                 <th>Name</th>
                 <th>Total</th>
-                <th>Acronym</th>
+                <th>Email</th>
                     {%if 'onlineapp.change_college' in user_permissions and 'onlineapp.delete_college' in user_permissions%}
                 <th>Edit | Delete </th>
                 {%endif%}
             </tr>
+
             {% for i in students %}
-                <tr>
-                    <td> {{i.student__name}}</td>
-                    <td> {{i.student__mocktest1__total}}</td>
-                    <td> {{i.acronym}}</td>
+
+            <tr>
+                    <td> {{i.name}}</td>
+                    <td> {{i.mocktest1__total}}</td>
+                    <td> {{i.email}}</td>
                     {%if 'onlineapp.change_college' in user_permissions and 'onlineapp.delete_college' in user_permissions%}
-                    <td><a href="{% url 'editstudent' i.student__id %}">Edit</a> | <a href="{% url 'deletestudent' i.student__id %}">Delete</a></td>
+                    <td><a href="{% url 'editstudent' i.id %}">Edit</a> | <a href="{% url 'deletestudent' i.id %}">Delete</a></td>
                     {% endif %}
                 </tr>
             {% endfor %}
         </table>
-          {%if 'onlineapp.change_college' in user_permissions and 'onlineapp.delete_college' in user_permissions%}
+              {% else %}
+    <p> There are No Students Yet !</p>
+    {%if 'onlineapp.change_college' in user_permissions and 'onlineapp.delete_college' in user_permissions%}
                     <a href="./addstudent"><button> add student </button></a>
         {%endif%}
+
     {% endif %}
+
 </center>
 {% endblock %}

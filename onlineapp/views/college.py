@@ -49,12 +49,14 @@ class CollegeView(django.contrib.auth.mixins.LoginRequiredMixin, View):
 class  CollegeListView(django.contrib.auth.mixins.LoginRequiredMixin, ListView):
     login_url = '/login/'
     model=College
+
     context_object_name = 'col'
     template_name = 'collegeList.html'
 
 #pagination happens in listvviewc
 
     def get_context_data(self,**kwargs):
+
         context=super(CollegeListView,self).get_context_data(**kwargs)
         context.update({
             'user_permissions': self.request.user.get_all_permissions(),
@@ -65,13 +67,19 @@ class  CollegeListView(django.contrib.auth.mixins.LoginRequiredMixin, ListView):
 #https://docs.djangoproject.com/en/2.0/ref/class-based-views/generic-display/#django.views.generic.list.BaseListView
 class CollegeDetailsView(django.contrib.auth.mixins.LoginRequiredMixin, DetailView):
     login_url = '/login/'
+    import ipdb
+    ipdb.set_trace()
     model=College
     template_name = 'collge_Details.html'
 
     def get_object(self, queryset=None):
+        import ipdb
+        ipdb.set_trace()
         return get_object_or_404(College,**self.kwargs) #**{'pk':self.kwargs.get('id')}
 
     def get_context_data(self, **kwargs):
+        import ipdb
+        ipdb.set_trace()
         context=super(CollegeDetailsView,self).get_context_data(**kwargs)
         context.update({
             'user_permissions': self.request.user.get_all_permissions(),
@@ -80,7 +88,8 @@ class CollegeDetailsView(django.contrib.auth.mixins.LoginRequiredMixin, DetailVi
 #  amde a change here id is added.
         std=self.model.objects.filter(id=college.id).values('student__mocktest1__total', 'student__name', 'acronym','id')
         students=self.model.objects.filter(id=college.id).values('student__mocktest1__total','student__name','acronym','student__id','student__college__id')
-
+        students = list(
+            college.student_set.values('id', 'name', 'email', 'mocktest1__total').order_by('-mocktest1__total'))
 
         #.order_by('-student____mocktest1__total')
         #self.model.objects."query"
