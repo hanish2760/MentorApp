@@ -2,19 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0228d370-00f9-4d3d-bd65-d706f64e9fa2" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/onlineapp/home.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/onlineapp/images/glassy.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/onlineClass/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/onlineClass/settings.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/onlineapp/_base.html" beforeDir="false" afterPath="$PROJECT_DIR$/onlineapp/_base.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/onlineapp/collegeDetails.html" beforeDir="false" afterPath="$PROJECT_DIR$/onlineapp/collegeDetails.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/onlineapp/collegeList.html" beforeDir="false" afterPath="$PROJECT_DIR$/onlineapp/collegeList.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/onlineapp/collge_Details.html" beforeDir="false" afterPath="$PROJECT_DIR$/onlineapp/collge_Details.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/onlineapp/login.html" beforeDir="false" afterPath="$PROJECT_DIR$/onlineapp/login.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/onlineapp/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/onlineapp/urls.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/onlineapp/views/college.py" beforeDir="false" afterPath="$PROJECT_DIR$/onlineapp/views/college.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/reactdjango/scripts/test.js" beforeDir="false" afterPath="$PROJECT_DIR$/reactdjango/scripts/test.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/reactdjango/src/CollegesList/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/reactdjango/src/CollegesList/index.js" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -37,7 +25,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="settings.py" pinned="false" current-in-tab="false">
+      <file leaf-file-name="settings.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/onlineClass/settings.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="190">
@@ -82,7 +70,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="signup_form.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="signup_form.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/onlineapp/signup_form.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="153">
@@ -201,7 +189,6 @@
         <option value="$PROJECT_DIR$/onlineapp/temp2.html" />
         <option value="$PROJECT_DIR$/onlineapp/temp3.html" />
         <option value="$PROJECT_DIR$/onlineapp/views/college.py" />
-        <option value="$PROJECT_DIR$/onlineClass/settings.py" />
         <option value="$PROJECT_DIR$/onlineapp/_base.html" />
         <option value="$PROJECT_DIR$/onlineapp/home.html" />
         <option value="$PROJECT_DIR$/onlineapp/login.html" />
@@ -209,6 +196,7 @@
         <option value="$PROJECT_DIR$/onlineapp/collegeDetails.html" />
         <option value="$PROJECT_DIR$/onlineapp/collegeList.html" />
         <option value="$PROJECT_DIR$/onlineapp/collge_Details.html" />
+        <option value="$PROJECT_DIR$/onlineClass/settings.py" />
       </list>
     </option>
   </component>
@@ -463,14 +451,14 @@
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.18836749" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.18836749" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.329927" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.32554746" />
       <window_info anchor="bottom" id="Version Control" order="9" weight="0.329927" />
       <window_info anchor="bottom" id="Python Console" order="7" weight="0.3240876" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Terminal" order="8" visible="true" weight="0.20145985" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="8" visible="true" weight="0.20145985" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.48759124" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -855,13 +843,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/onlineClass/settings.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="190">
-          <caret line="139" lean-forward="true" selection-start-line="139" selection-end-line="139" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/onlineapp/college_form.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="153">
@@ -894,6 +875,13 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="153">
           <caret line="9" column="14" lean-forward="true" selection-start-line="9" selection-start-column="14" selection-end-line="9" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/onlineClass/settings.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="139" lean-forward="true" selection-start-line="139" selection-end-line="139" />
         </state>
       </provider>
     </entry>

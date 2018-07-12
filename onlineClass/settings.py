@@ -136,7 +136,7 @@ DATABASES = {
 
 import dj_database_url
 # remove this commnt for heroku
-# DATABASES['default'] = dj_database_url.config(conn_max_age=600)
+DATABASES['default'] = dj_database_url.config(conn_max_age=600)
 
 
 # Password validation
