@@ -2,8 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0228d370-00f9-4d3d-bd65-d706f64e9fa2" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/onlineapp/collegeList.html" beforeDir="false" afterPath="$PROJECT_DIR$/onlineapp/collegeList.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/onlineapp/collge_Details.html" beforeDir="false" afterPath="$PROJECT_DIR$/onlineapp/collge_Details.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/onlineapp/views/college.py" beforeDir="false" afterPath="$PROJECT_DIR$/onlineapp/views/college.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -27,7 +25,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="settings.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="settings.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/onlineClass/settings.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="190">
@@ -81,11 +79,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="college.py" pinned="false" current-in-tab="false">
+      <file leaf-file-name="college.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/onlineapp/views/college.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="224">
-              <caret line="90" column="24" lean-forward="true" selection-start-line="90" selection-start-column="24" selection-end-line="90" selection-end-column="24" />
+            <state relative-caret-position="275">
+              <caret line="69" column="3" selection-start-line="69" selection-start-column="3" selection-end-line="69" selection-end-column="3" />
               <folding>
                 <element signature="e#0#44#0" expanded="true" />
               </folding>
@@ -199,9 +197,9 @@
         <option value="$PROJECT_DIR$/onlineapp/urls.py" />
         <option value="$PROJECT_DIR$/onlineapp/collegeDetails.html" />
         <option value="$PROJECT_DIR$/onlineapp/collegeList.html" />
-        <option value="$PROJECT_DIR$/onlineapp/views/college.py" />
         <option value="$PROJECT_DIR$/onlineapp/collge_Details.html" />
         <option value="$PROJECT_DIR$/onlineClass/settings.py" />
+        <option value="$PROJECT_DIR$/onlineapp/views/college.py" />
       </list>
     </option>
   </component>
@@ -859,23 +857,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/onlineapp/collegeList.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="21" column="105" selection-start-line="21" selection-start-column="105" selection-end-line="21" selection-end-column="105" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/onlineapp/views/college.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="224">
-          <caret line="90" column="24" lean-forward="true" selection-start-line="90" selection-start-column="24" selection-end-line="90" selection-end-column="24" />
-          <folding>
-            <element signature="e#0#44#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/onlineapp/collge_Details.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="394">
@@ -887,6 +868,23 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="190">
           <caret line="139" lean-forward="true" selection-start-line="139" selection-end-line="139" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/onlineapp/collegeList.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="21" column="105" selection-start-line="21" selection-start-column="105" selection-end-line="21" selection-end-column="105" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/onlineapp/views/college.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="275">
+          <caret line="69" column="3" selection-start-line="69" selection-start-column="3" selection-end-line="69" selection-end-column="3" />
+          <folding>
+            <element signature="e#0#44#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

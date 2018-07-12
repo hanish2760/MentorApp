@@ -67,19 +67,16 @@ class  CollegeListView(django.contrib.auth.mixins.LoginRequiredMixin, ListView):
 #https://docs.djangoproject.com/en/2.0/ref/class-based-views/generic-display/#django.views.generic.list.BaseListView
 class CollegeDetailsView(django.contrib.auth.mixins.LoginRequiredMixin, DetailView):
     login_url = '/login/'
-    import ipdb
-    ipdb.set_trace()
+   
     model=College
     template_name = 'collge_Details.html'
 
     def get_object(self, queryset=None):
-        import ipdb
-        ipdb.set_trace()
+
         return get_object_or_404(College,**self.kwargs) #**{'pk':self.kwargs.get('id')}
 
     def get_context_data(self, **kwargs):
-        import ipdb
-        ipdb.set_trace()
+
         context=super(CollegeDetailsView,self).get_context_data(**kwargs)
         context.update({
             'user_permissions': self.request.user.get_all_permissions(),
