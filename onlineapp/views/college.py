@@ -15,7 +15,14 @@ from django.forms import *
 from onlineapp.forms.Auth import *
 from onlineapp.forms.Login import *
 from django.contrib.auth import *
+
+
 # super user hanish2760 lostlost
+
+class Home(View):
+    def get(self,request):
+        return render(request,template_name='home.html')
+
 class CollegeView(django.contrib.auth.mixins.LoginRequiredMixin, View):
     login_url = '/login/'
     # we can import packages anywhere lol

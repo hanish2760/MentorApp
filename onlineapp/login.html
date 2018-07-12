@@ -1,11 +1,18 @@
 
+{% extends "_base.html" %}
 
 {% block content %}
+<center><br class="container">
+  <div class="page-header">
+    <h1 id ="text_font">Mentor APP  <h4 style="float:right"><br><a href="{% url 'signup' %}">  Signup </a></h4></h1>
+  </div><br>
+</div>
+</center>
     <h1>Login User</h1>
     <form method="POST" class="post-form">
         {% csrf_token %}
         {{ form.as_p }}
         <button type="submit" class="save btn btn-default">Login</button>
     </form>
-    <a href="{% url 'signup' %}">signup</a>
+
 {% endblock %}

@@ -6,7 +6,7 @@ from onlineapp.SerializerViews.StudentRestViews import *
 from onlineapp.views.college import *
 from rest_framework_jwt.views import *
 urlpatterns = [
-
+    path('',LoginView.as_view(),name="login"),
     # path('test/',test),
     # path('populate_db/',upload_data),
     # auth
@@ -23,7 +23,7 @@ urlpatterns = [
     path('colleges/<int:pk>/deletestudent/', DeleteStudentView.as_view(), name="deletestudent"),
     path('colleges/<int:pk>/editstudent/', EditStudentView.as_view(), name="editstudent"),
     path('signup/',singnUpView.as_view(),name='signup'),
-    path('',LoginView.as_view(),name='login'),
+    path('login/',LoginView.as_view(),name='login'),
     path('logout/',logout_user,name="logout"),
     path('api/colleges/<int:pk>/',CollegeDetailsRestView),
     path('api/colleges/', CollegeListRestView),

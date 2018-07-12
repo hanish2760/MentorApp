@@ -3,7 +3,16 @@
 {% block content %}
 <center>
     {% if col %}
-        <table  class="table table-striped" border="3">
+        <table  class="table" border="3">
+            <tr>
+                <th>Location</th>
+                <th>College Name</th>
+                <th>Acronym</th>
+                {%if 'onlineapp.change_college' in user_permissions and 'onlineapp.delete_college' in user_permissions%}
+                <th>Edit | Delete </th>
+                {%endif%}
+
+            </tr>
             {% for i in col %}
                 <tr>
                     <td> {{i.location}}</td>

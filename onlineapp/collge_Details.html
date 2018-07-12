@@ -3,7 +3,15 @@
 {% block content %}
 <center>
     {% if students %}
-        <table  class="table table-striped" border="3">
+        <table  class="table" border="3">
+            <tr>
+                <th>Name</th>
+                <th>Total</th>
+                <th>Acronym</th>
+                    {%if 'onlineapp.change_college' in user_permissions and 'onlineapp.delete_college' in user_permissions%}
+                <th>Edit | Delete </th>
+                {%endif%}
+            </tr>
             {% for i in students %}
                 <tr>
                     <td> {{i.student__name}}</td>

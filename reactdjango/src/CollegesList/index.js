@@ -30,7 +30,6 @@ class CollegesList extends Component {
                 console.log('list'+collegelist);
                 this.setState({
                     colleges: collegelist,
-
                 });
             });
         console.log('Here');
